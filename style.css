@@ -1,0 +1,48 @@
+/* 공통 */
+* {
+    margin: 0;
+    list-style: none;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+/* 영역 확인용 차후 삭제 */
+div {
+    border: solid;
+}
+
+/* 헤더영역 */
+.container {
+    max-width: 1425px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+#top {
+    position: relative;
+    z-index: 9998;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+}
+
+.row1 {
+    margin-right: 2%;
+}
+
+.row2 {
+    margin-left: auto;
+}
+
