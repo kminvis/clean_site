@@ -1,4 +1,3 @@
-alert('hi')
 $(document).ready(function(){
 	 
     $('.menu_btn>a').on('click', function(){
