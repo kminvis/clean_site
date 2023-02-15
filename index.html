@@ -8,26 +8,7 @@
 	<title>부산종합청소</title>
 	<link rel="stylesheet" href="mobile.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script>
-$(document).ready(function(){
-	 
-    $('.menu_btn>a').on('click', function(){
-        $('.menu_bg').show(); 
-        $('.sidebar_menu').show().animate({
-            right:0
-        });  
-    });
-    $('.close_btn>a').on('click', function(){
-        $('.menu_bg').hide(); 
-        $('.sidebar_menu').animate({
-            right: '-' + 50 + '%'
-                   },function(){
-$('.sidebar_menu').hide(); 
-}); 
-    });
-
-});
-	</script>
+	<script type="text/javascript" src="script.js"></script>
 	
 </head>
 
@@ -48,17 +29,19 @@ $('.sidebar_menu').hide();
 			<a href="#">x</a>
 		</div>
 		<ul class="menu_wrap">
-			<li><a href="#">소개</a></li>
-			<li><a href="#">메뉴02</a></li>
-			<li><a href="#">메뉴03</a></li>
-			<li><a href="#">문의하기</a></li>
+			<li><a href="#first_page">소개</a></li>
+			<li><a href="#second_page">메뉴02</a></li>
+			<li><a href="#third_page">메뉴03</a></li>
+			<li><a href="#fourth_page">문의하기</a></li>
 		</ul>
 	</div>
-	<div class="first_page">
+	<div id="first_page">
 	</div>
-	<div class="second_page">
+	<div id="second_page">
 	</div>
-	<div class="third_page">
+	<div id="third_page">
+	</div>
+	<div id="fourth_page">
 	</div>
 </body>
 
