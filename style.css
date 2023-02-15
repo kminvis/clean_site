@@ -1,48 +1,79 @@
 /* 공통 */
-* {
-    margin: 0;
-    list-style: none;
-}
-
-
-ul {
+body, html{overflow-x: hidden;margin: 0;}
+a{color: #000; text-decoration: none;}
+.header{
+    height: 50px;
     display: flex;
-}
-
-li {
-    float: left;
     padding: 10px;
+    width: 96%;
+    position: fixed;
+    background: white;
 }
 
-/* 영역 확인용 차후 삭제 */
-div {
-    border: solid;
+/* 모바일 기준 500px로 잡기 */
+/* 헤더 */
+.logo {
+    display: inline-block;
 }
-
-/* 헤더영역 */
-.container {
-    max-width: 1425px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 80px;
+.logo > a > img{
+    height: 50px;
 }
-
-#top {
-    position: relative;
-    z-index: 9998;
-    width: 100%;
-}
-
-.row {
-    display: flex;
-    padding: 20px;
-}
-
-.row1 {
-    margin-right: 2%;
-}
-
-.row2 {
+.menu_btn{
     margin-left: auto;
+    padding: 10px;
+    height: 30px;
+    display: inline-block;
+}
+.menu_bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    display: none;
+}
+.sidebar_menu{
+display: none;
+    width: 50%;
+    height: 100%;
+    background: #2468a2;
+    position: absolute;
+    top:0;
+    right: -50%;
+    
+}
+.close_btn{
+    text-align: right;
+    margin: 0 10px;
+}
+.close_btn > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+}
+.menu_wrap{
+    list-style: none;
+    padding: 20px 20px;   
+}
+.menu_wrap > li{
+    margin-bottom: 20px;
+}
+.menu_wrap li a{
+    color: #fff;
 }
 
+/* 첫번째 메인 페이지 */
+.first_page{
+    background: gray;
+    height: 500px;
+}
+.second_page{
+    background: whitesmoke;
+    height: 500px;
+}
+.third_page{
+    background: wheat;
+    height: 500px;
+}
