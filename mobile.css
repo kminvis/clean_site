@@ -1,7 +1,7 @@
 /* 공통 */
 body, html{overflow-x: hidden;margin: 0;}
 a{color: #000; text-decoration: none;}
-button{background: none; border: none;}
+button{background: none; border: none; padding: none;}
 .header{
     height: 50px;
     display: flex;
