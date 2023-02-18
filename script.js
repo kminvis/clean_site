@@ -1,13 +1,18 @@
+// 메뉴
 $(document).ready(function(){
 	 
     $('.menu_btn>a').on('click', function(){
         $('.menu_bg').show(); 
+        $('.close_btn').show(); 
+        $('.menu_btn').hide(); 
         $('.sidebar_menu').show().animate({
             right:0
         });  
     });
     $('.close_btn>a').on('click', function(){
         $('.menu_bg').hide(); 
+        $('.close_btn').hide(); 
+        $('.menu_btn').show(); 
         $('.sidebar_menu').animate({
             right: '-' + 50 + '%'
                    },function(){
