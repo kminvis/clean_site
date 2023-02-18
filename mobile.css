@@ -21,7 +21,7 @@ button{background: none; border: none;}
     height: 50px;
 }
 .menu_btn{
-    width: 10%;
+    width: 20%;
     margin-left: auto;
 }
 .menu_btn > button{
@@ -52,7 +52,7 @@ button{background: none; border: none;}
 }
 .close_btn{
     display: none;
-    width: 10%;
+    width: 20%;
     margin-left: auto;
 }
 .close_btn > button{
