@@ -1,7 +1,7 @@
 // 메뉴
 $(document).ready(function(){
 	 
-    $('.menu_btn>a').on('click', function(){
+    $('.menu_btn>button').on('click', function(){
         $('.menu_bg').show(); 
         $('.close_btn').show(); 
         $('.menu_btn').hide(); 
@@ -9,7 +9,7 @@ $(document).ready(function(){
             right:0
         });  
     });
-    $('.close_btn>a').on('click', function(){
+    $('.close_btn>button').on('click', function(){
         $('.menu_bg').hide(); 
         $('.close_btn').hide(); 
         $('.menu_btn').show(); 
