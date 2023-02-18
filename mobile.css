@@ -51,7 +51,7 @@ a{color: #000; text-decoration: none;}
 }
 .close_btn > a{
     position: fixed;
-    top: 3px;
+    top: 0.5%;
     right: 14px;
     font-size: 40px;
     color: #2468a2;
