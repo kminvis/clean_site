@@ -1,7 +1,7 @@
 /* 공통 */
 body, html{overflow-x: hidden;margin: 0;}
 a{color: #000; text-decoration: none;}
-button{background: none; border: none; padding: none;}
+button{background: none; border: none; right: 2%;}
 .header{
     height: 50px;
     display: flex;
@@ -22,8 +22,6 @@ button{background: none; border: none; padding: none;}
 }
 .menu_btn > button{
     position: fixed;
-    top: 13px;
-    right: 10px;
     font-size: 30px;
     color: #2468a2;
 }
@@ -51,8 +49,6 @@ button{background: none; border: none; padding: none;}
 }
 .close_btn > button{
     position: fixed;
-    top: 3px;
-    right: 14px;
     font-size: 40px;
     color: #2468a2;
 }
