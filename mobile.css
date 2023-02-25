@@ -6,7 +6,7 @@ button{background: none; border: none;}
     height: 50px;
     display: flex;
     padding: 10px;
-    width: 96%;
+    width: 700px;
     position: fixed;
     background: white;
     z-index: 9;
@@ -21,7 +21,6 @@ button{background: none; border: none;}
     height: 50px;
 }
 .menu_btn{
-    width: 20%;
     margin-left: auto;
 }
 .menu_btn > button{
@@ -52,7 +51,6 @@ button{background: none; border: none;}
 }
 .close_btn{
     display: none;
-    width: 20%;
     margin-left: auto;
 }
 .close_btn > button{
