@@ -123,6 +123,13 @@ button{background: none; border: none;}
     background: wheat;
     height: 500px;
 }
+
+/* 폼 페이지 */
 #fourth_page{
     text-align: center;
+    overflow: hidden;
+}
+
+#fourth_page > iframe{
+    margin-top: -50px;	
 }
