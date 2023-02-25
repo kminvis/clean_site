@@ -6,7 +6,7 @@ button{background: none; border: none;}
     height: 50px;
     display: flex;
     padding: 10px;
-    max-width: 680px;
+    width: 100%;
     position: fixed;
     background: white;
     z-index: 9;
