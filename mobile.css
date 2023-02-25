@@ -1,5 +1,5 @@
 /* 공통 */
-body, html{overflow-x: hidden;margin: 0;}
+body, html{overflow-x: hidden; margin: auto; width: 700px;}
 a{color: #000; text-decoration: none;}
 button{background: none; border: none;}
 .header{
