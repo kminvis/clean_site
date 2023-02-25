@@ -133,3 +133,11 @@ button{background: none; border: none;}
 #fourth_page > iframe{
     margin-top: -50px;	
 }
+
+/* footer */
+footer {
+padding: 20px;
+    color: gray;
+    font-size: 10px;
+    border-top: solid 1px gainsboro;
+}
