@@ -119,7 +119,9 @@ button{background: none; border: none;}
 
 /* 두번째 메인 페이지 */
 #second_page{
-    background: white;
+    background: #eeeeee;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
     padding: 10px;
     display: flex;
 }
