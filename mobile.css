@@ -116,12 +116,12 @@ button{background: none; border: none;}
 
 /* 두번째 메인 페이지 */
 #second_page{
-    background: whitesmoke;
-    height: 500px;
+    background: #28A0DA;
+    display: flex;
 }
-#third_page{
-    background: wheat;
-    height: 500px;
+
+#second_page > div{
+    width: 50%;
 }
 
 /* 폼 페이지 */
