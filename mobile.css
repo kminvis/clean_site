@@ -116,13 +116,13 @@ button{background: none; border: none;}
 
 /* 두번째 메인 페이지 */
 #second_page{
-    background: #28A0DA;
+    background: white;
     padding: 10px;
     display: flex;
 }
 
 #second_page > div{
-    width: 50%;
+    width: 33%;
 }
 
 /* 폼 페이지 */
