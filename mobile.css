@@ -21,6 +21,9 @@ button{background: none; border: none;}
 .logo > a > {
     height: 50px;
 }
+.logo > a > img{
+    height: 50px;	
+}
 .menu_btn{
     margin-left: auto;
 }
