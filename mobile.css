@@ -18,7 +18,7 @@ button{background: none; border: none;}
 .logo {
     display: inline-block;
 }
-.logo > a > img{
+.logo > a > {
     height: 50px;
 }
 .menu_btn{
@@ -123,6 +123,10 @@ button{background: none; border: none;}
 
 #second_page > div{
     width: 33%;
+}
+
+#second_page > div > a > img{
+    width: 100%;	
 }
 
 /* 폼 페이지 */
